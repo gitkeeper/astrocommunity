@@ -1,5 +1,30 @@
 # Changelog
 
+## [17.0.0](https://github.com/AstroNvim/astrocommunity/compare/v16.0.0...v17.0.0) (2025-01-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* **linear-nvim:** Change leader from `<Leader>m` to `<Leader>L` ([#1314](https://github.com/AstroNvim/astrocommunity/issues/1314))
+
+### Features
+
+* **copilotchat-nvim:** select a picker based on installed one ([#1333](https://github.com/AstroNvim/astrocommunity/issues/1333)) ([0e1cf11](https://github.com/AstroNvim/astrocommunity/commit/0e1cf1178a6c0b2bfbc1e5e0d4a3009911b07649))
+* **debugging:** add `nvim-dap-view` ([#1332](https://github.com/AstroNvim/astrocommunity/issues/1332)) ([b8efe23](https://github.com/AstroNvim/astrocommunity/commit/b8efe23b044da9c271ca87159fa148daa908008c))
+* **fuzzy-finder:** add `snacks.picker` from `snacks.nvim` ([#1320](https://github.com/AstroNvim/astrocommunity/issues/1320)) ([6c63109](https://github.com/AstroNvim/astrocommunity/commit/6c63109d12bff41b81e953b6b3f7ed6b92228c39))
+* **snacks-picker:** add `snacks.notifier` picker if used for notifications ([2f234c5](https://github.com/AstroNvim/astrocommunity/commit/2f234c568a28e08f03e326c467cd8f93f101a01f))
+
+
+### Bug Fixes
+
+* **avante-nvim:** fix typo in opts ([#1317](https://github.com/AstroNvim/astrocommunity/issues/1317)) ([532a545](https://github.com/AstroNvim/astrocommunity/commit/532a545db91bbc63be038fee99cf2666cc3b6350))
+* **avante-nvim:** update config for `render-markdown` ([532a545](https://github.com/AstroNvim/astrocommunity/commit/532a545db91bbc63be038fee99cf2666cc3b6350))
+* **docker:** disable docker-compose formatter and use default from yaml ([bac0a03](https://github.com/AstroNvim/astrocommunity/commit/bac0a03e1f661600efa1e4c848416355d2ce1586))
+* **docker:** use default formatter for yaml and turn off from docker_compose_language_service  ([#1321](https://github.com/AstroNvim/astrocommunity/issues/1321)) ([bac0a03](https://github.com/AstroNvim/astrocommunity/commit/bac0a03e1f661600efa1e4c848416355d2ce1586))
+* **laravel-nvim:** update required deps from v2 to v3 ([89c9960](https://github.com/AstroNvim/astrocommunity/commit/89c9960a7bb47d3f536f0e2d912228705c0e5ccc))
+* **linear-nvim:** Change leader from `&lt;Leader&gt;m` to `<Leader>L` ([#1314](https://github.com/AstroNvim/astrocommunity/issues/1314)) ([6426600](https://github.com/AstroNvim/astrocommunity/commit/6426600f2964f350377cc3627b868fc10286b286))
+* **pack:** update `laravel-nvim` required deps from v2 to v3 ([#1315](https://github.com/AstroNvim/astrocommunity/issues/1315)) ([89c9960](https://github.com/AstroNvim/astrocommunity/commit/89c9960a7bb47d3f536f0e2d912228705c0e5ccc))
+
 ## [16.0.0](https://github.com/AstroNvim/astrocommunity/compare/v15.0.0...v16.0.0) (2025-01-10)
 
 
